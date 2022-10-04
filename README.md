@@ -6,6 +6,6 @@ This code consists of a unified framework for performing transient simulations a
 
 This code version uses the finite element method for constructing fully-discrete flow pattern maps by resolving the linearized equations and performing linear stability analysis. Also, the capability of the numerical formulation for describing wave growth is accomplished through stiffness analysis of the semi-discrete equations, which reveal the influence of convection and acoustic modes on flow stability and consequent liquid wave growth.
 
-After formulating the variational problem, the [FEniCS Project](https://fenicsproject.org/) open-source computing platform is employed to construct the basis functions, solve the integral functions on the element level, and assemble the system matrix. The system matrix is solved through the Newton method and the eigenvalue problem through the ARPACK library. The code is written in the Python 3 language.
+After formulating the variational problem, the [FEniCS Project](https://fenicsproject.org/) open-source computing platform is employed to construct the basis functions, solve the integral functions on the element level, and assemble the system matrix. The system matrix is solved through the Newton method and the UMF-Pack. The eigenvalue problem through the ARPACK library. The code is written in the Python 3 language.
 
 
