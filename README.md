@@ -1,6 +1,6 @@
-# Two-fluid model simulator
+# Two-fluid model sample code
 
-## Sample code for transient simulations of gas-liquid flows in pipelines using th finite element method and the two-fluid model
+### Sample code for transient simulations of gas-liquid flows in pipelines using th finite element method and the two-fluid model
 
 This code consists of a unified framework for performing transient simulations and stability analysis of two-phase flows using the one-dimensional averaged Navier-Stokes equations, frequently employed in sizing and monitoring pipelines and receiving facilities of the oil and gas industry. This code simulates liquid wave growth by considering stratified flows as the initial conditions.
 
