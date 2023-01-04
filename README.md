@@ -1,4 +1,4 @@
-Two-fluid model sample code for MST
+Two-fluid model sample code for JBSMSE
 ============================================
 
 Description 
